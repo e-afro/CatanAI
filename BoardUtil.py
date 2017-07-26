@@ -14,7 +14,7 @@ def fill_first_land_in_row(row, previous_nodes):
         nodes[0] = previous_nodes[2] + 1
         nodes[3] = previous_nodes[3] + 5
     elif row == 2:
-        nodes[0] = previous_nodes[2] + 2
+        nodes[0] = previous_nodes[2] + 1
         nodes[3] = previous_nodes[3] + 4
     else:
         nodes[0] = previous_nodes[2] + 2
